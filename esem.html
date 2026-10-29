@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"> 
+  <meta name="author" content="Javier Durán García">
+  <meta name="description" content="Esta es mi segunda pagina web dentro del grado de DAM">
+  <meta name="date" content="2026-10-21">
+  <title>Mi Primera Página Web by Javier Durán García</title>
+</head>
+
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Style the header */
+header {
+  background-color: #666;
+  padding: 20px;
+  text-align: center;
+  font-size: 25px;
+  color: white;
+}
+
+/* Create two columns/boxes that floats next to each other */
+nav {
+  float: center;
+  width: 100%;
+  background: #ccc;
+  padding: 25px;
+}
+
+/* Style the list inside the menu */
+nav ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+article {
+  float: left;
+  padding: 20px;
+  width: 100%;
+  background-color: #f1f1f1;
+}
+
+/* Clear floats after the columns */
+section::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Style the footer */
+footer {
+  background-color: #777;
+  padding: 10px;
+  text-align: center;
+  color: white;
+}
+
+/* Responsive layout - makes the two columns/boxes stack on top of each other instead of next to each other, on small screens */
+@media (max-width: 600px) {
+  nav, article {
+    width: 100%;
+    height: auto;
+  }
+}
+</style>
+
+<body>
+
+<header>
+  <h1>Mi Pelicula Favorita by Javier Durán García</h1>
+<p>Bienvenidos a mi pagina web en esta hablare sobre mi pelicula favorita GOOD WILL HUNTING</p>
+<p></p>
+</header>
+<hr>
+<section> 
+  <nav>
+    <ul>
+  <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQjbPZJr8TtIPVvhbXKdZBJw2m_bxQXdnPAHy4Mz38r8w&s=10" alt="Protagonistas" width="400" height="500">
+  <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSqKwB8K1dzEFVfupG72ZJ7Hgjo9eYyR7Q3i9aYTIRp_A&s=10" alt="Frase pelicula" width="400" height="500">
+  </nav>
+  </ul>
+<article>
+<p>Good Will Hunting es una película estadounidense de 1997 dirigida por Gus Van Sant</p>
+</article>
+<nav>
+<table>
+  <tr>
+    <th>Actor</th>
+    <th>Role</th>
+    <th>Age</th>
+  </tr>
+  <tr>
+    <td>Matt Damon</td>
+    <td>Will Hunting</td>
+    <td>26</td>
+  </tr>
+  <tr>
+    <td>Robin Williams</td>
+    <td>Dr. Sean Maguire</td>
+    <td>45</td>
+  </tr>
+  <tr>
+    <td>Ben Affleck</td>
+    <td>Chuckie Sullivan</td>
+    <td>24</td>
+  </tr>
+</table>
+</nav>
+<nav>
+<iframe width="560" height="315" 
+src="https://www.youtube.com/embed/8IBk2LIld-o?si=N9xFcr2MJSBosNhx" 
+title="RESUMEN" 
+frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen>
+</iframe>
+</nav>
+<article>
+<a href="https://es.wikipedia.org/wiki/Good_Will_Hunting" target="_blank" >
+  Visitar web para mas informacion de la pelicula
+</a>
+</article>
+</section>
+<footer>
+  <p>Copyright © 2026 Javier Durán García</p>
+</footer>
+</body>
+</html>
